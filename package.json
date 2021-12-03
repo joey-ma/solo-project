@@ -1,0 +1,55 @@
+{
+  "name": "solo-project",
+  "version": "1.0.0",
+  "description": "let's try to build something! - Joey Ma",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve  --hot --open",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoyoyojoe/solo-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoyoyojoe/solo-project/issues"
+  },
+  "homepage": "https://github.com/yoyoyojoe/solo-project#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb": "^19.0.1",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "sass": "^1.44.0",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "axios": "^0.24.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^9.0.1",
+    "eslint-import-resolver-webpack": "^0.13.0",
+    "express": "^4.17.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^5.5.0",
+    "mongoose": "^6.0.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9"
+  }
+}

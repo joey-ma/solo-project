@@ -1,5 +1,7 @@
 # solo project: fu-is-wow
 
+let's try to build something!
+
 1. Identify your user(s): 
 - Joey Ma
 
